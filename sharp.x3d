@@ -1,0 +1,29 @@
+      <scene>
+        <Group DEF='sharp'>
+          <Transform translation='20 -4 0'>
+            <shape>
+              <appearance>
+                <TextureTransform scale="2 1"></TextureTransform>
+                <ImageTexture url="https://st.depositphotos.com/2117021/4580/i/950/depositphotos_45809091-stock-photo-metallic-texture-pattern-of-grille.jpg" repeatS="true" repeatT="true"></ImageTexture>
+              </appearance>
+              <box size="0.1 12 48"></box>
+            </shape>
+          </Transform>
+        </Group>
+
+        <Transform translation='-40 0 0'>
+          <Group USE='sharp'></Group>
+        </Transform>
+
+        <Transform translation='0 0 -4' rotation='0 1 0 1.57'>
+          <Transform translation='20 -4 0'>
+            <shape>
+              <appearance>
+                <TextureTransform scale="2 1"></TextureTransform>
+                <ImageTexture url="https://st.depositphotos.com/2117021/4580/i/950/depositphotos_45809091-stock-photo-metallic-texture-pattern-of-grille.jpg" repeatS="true" repeatT="true"></ImageTexture>
+              </appearance>
+              <box size="0.1 12 40"></box>
+            </shape>
+          </Transform>
+        </Transform>
+      </scene>
